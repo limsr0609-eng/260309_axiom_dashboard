@@ -1,7 +1,27 @@
 {
-  "name": "PGS Axiom dashboard",
-  "description": "A comprehensive lab dashboard for PGS Axiom operations, including reagent preparation, experiment tracking, and QC data management.",
-  "requestFramePermissions": [
-    "camera"
-  ]
+  "name": "pgs-axiom-dashboard",
+  "version": "1.0.0",
+  "description": "A comprehensive lab dashboard for PGS Axiom operations",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.546.0",
+    "motion": "^12.23.24"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "tailwindcss": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.14",
+    "autoprefixer": "^10.4.21"
+  }
 }
