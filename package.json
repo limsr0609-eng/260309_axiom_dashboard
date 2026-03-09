@@ -1,0 +1,7 @@
+{
+  "name": "PGS Axiom dashboard",
+  "description": "A comprehensive lab dashboard for PGS Axiom operations, including reagent preparation, experiment tracking, and QC data management.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
